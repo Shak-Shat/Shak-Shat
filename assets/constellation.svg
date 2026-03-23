@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="380" viewBox="0 0 900 380">
+  <defs>
+    <radialGradient id="cbg" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#0f0a1a"/>
+      <stop offset="100%" stop-color="#050510"/>
+    </radialGradient>
+    <radialGradient id="nebA" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebB" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebC" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#14b8a6" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#14b8a6" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="sg">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <filter id="sg2">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <style>
+      @keyframes p1{0%,100%{opacity:.6}50%{opacity:1}}
+      @keyframes p2{0%,100%{opacity:.5}50%{opacity:.95}}
+      @keyframes p3{0%,100%{opacity:.7}50%{opacity:1}}
+      .p1{animation:p1 3s ease-in-out infinite}
+      .p2{animation:p2 4s ease-in-out infinite}
+      .p3{animation:p3 3.5s ease-in-out infinite}
+      .label{font-family:'Segoe UI',system-ui,sans-serif;font-size:10px;fill:#c9d1d9;text-anchor:middle}
+      .cluster-label{font-family:'Segoe UI',system-ui,sans-serif;font-size:11px;font-weight:600;letter-spacing:3px;text-anchor:middle}
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="380" fill="url(#cbg)" rx="10"/>
+
+  <!-- Section title -->
+  <text x="450" y="30" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="11" font-weight="300" letter-spacing="6" fill="#7c3aed" opacity="0.8">✦  S T A R   S Y S T E M S  ✦</text>
+
+  <!-- ============ NEBULA ALPHA — Web Dev (Left) ============ -->
+  <ellipse cx="180" cy="200" rx="170" ry="140" fill="url(#nebA)"/>
+  <text x="180" y="62" class="cluster-label" fill="#a855f7" opacity="0.6">NEBULA ALPHA</text>
+
+  <!-- Constellation lines -->
+  <line x1="140" y1="120" x2="220" y2="140" stroke="#a855f7" stroke-width="0.4" opacity="0.3"/>
+  <line x1="220" y1="140" x2="200" y2="200" stroke="#a855f7" stroke-width="0.4" opacity="0.3"/>
+  <line x1="200" y1="200" x2="130" y2="190" stroke="#a855f7" stroke-width="0.4" opacity="0.3"/>
+  <line x1="130" y1="190" x2="140" y2="120" stroke="#a855f7" stroke-width="0.4" opacity="0.3"/>
+  <line x1="200" y1="200" x2="250" y2="240" stroke="#a855f7" stroke-width="0.4" opacity="0.3"/>
+  <line x1="250" y1="240" x2="170" y2="270" stroke="#a855f7" stroke-width="0.4" opacity="0.3"/>
+  <line x1="130" y1="190" x2="80" y2="240" stroke="#a855f7" stroke-width="0.4" opacity="0.3"/>
+  <line x1="220" y1="140" x2="280" y2="160" stroke="#a855f7" stroke-width="0.4" opacity="0.3"/>
+
+  <!-- Stars (skills) -->
+  <circle cx="140" cy="120" r="5" fill="#a855f7" filter="url(#sg)" class="p1"/>
+  <circle cx="140" cy="120" r="3" fill="#e9d5ff"/>
+  <text x="140" y="108" class="label">JavaScript</text>
+
+  <circle cx="220" cy="140" r="5" fill="#a855f7" filter="url(#sg)" class="p2"/>
+  <circle cx="220" cy="140" r="3" fill="#e9d5ff"/>
+  <text x="220" y="128" class="label">TypeScript</text>
+
+  <circle cx="200" cy="200" r="6" fill="#a855f7" filter="url(#sg)" class="p3"/>
+  <circle cx="200" cy="200" r="3.5" fill="#f0e6ff"/>
+  <text x="200" y="218" class="label">React</text>
+
+  <circle cx="130" cy="190" r="4.5" fill="#a855f7" filter="url(#sg)" class="p1"/>
+  <circle cx="130" cy="190" r="2.5" fill="#e9d5ff"/>
+  <text x="130" y="178" class="label">Node.js</text>
+
+  <circle cx="250" cy="240" r="4" fill="#a855f7" filter="url(#sg)" class="p2"/>
+  <circle cx="250" cy="240" r="2.5" fill="#e9d5ff"/>
+  <text x="250" y="258" class="label">Next.js</text>
+
+  <circle cx="170" cy="270" r="4" fill="#a855f7" filter="url(#sg)" class="p3"/>
+  <circle cx="170" cy="270" r="2.5" fill="#e9d5ff"/>
+  <text x="170" y="288" class="label">HTML/CSS</text>
+
+  <circle cx="80" cy="240" r="3.5" fill="#a855f7" filter="url(#sg)" class="p1"/>
+  <circle cx="80" cy="240" r="2" fill="#e9d5ff"/>
+  <text x="80" y="258" class="label">Express</text>
+
+  <circle cx="280" cy="160" r="3.5" fill="#a855f7" filter="url(#sg)" class="p2"/>
+  <circle cx="280" cy="160" r="2" fill="#e9d5ff"/>
+  <text x="280" y="148" class="label">Tailwind</text>
+
+  <!-- ============ NEBULA BETA — AI/ML (Center) ============ -->
+  <ellipse cx="490" cy="200" rx="160" ry="140" fill="url(#nebB)"/>
+  <text x="490" y="62" class="cluster-label" fill="#3b82f6" opacity="0.6">NEBULA BETA</text>
+
+  <!-- Constellation lines -->
+  <line x1="470" y1="120" x2="530" y2="150" stroke="#3b82f6" stroke-width="0.4" opacity="0.3"/>
+  <line x1="530" y1="150" x2="510" y2="210" stroke="#3b82f6" stroke-width="0.4" opacity="0.3"/>
+  <line x1="510" y1="210" x2="440" y2="200" stroke="#3b82f6" stroke-width="0.4" opacity="0.3"/>
+  <line x1="440" y1="200" x2="470" y2="120" stroke="#3b82f6" stroke-width="0.4" opacity="0.3"/>
+  <line x1="510" y1="210" x2="560" y2="260" stroke="#3b82f6" stroke-width="0.4" opacity="0.3"/>
+  <line x1="440" y1="200" x2="420" y2="260" stroke="#3b82f6" stroke-width="0.4" opacity="0.3"/>
+  <line x1="530" y1="150" x2="580" y2="180" stroke="#3b82f6" stroke-width="0.4" opacity="0.3"/>
+
+  <!-- Stars (skills) -->
+  <circle cx="470" cy="120" r="5.5" fill="#3b82f6" filter="url(#sg)" class="p2"/>
+  <circle cx="470" cy="120" r="3" fill="#dbeafe"/>
+  <text x="470" y="108" class="label">Python</text>
+
+  <circle cx="530" cy="150" r="5" fill="#3b82f6" filter="url(#sg)" class="p3"/>
+  <circle cx="530" cy="150" r="3" fill="#dbeafe"/>
+  <text x="530" y="138" class="label">TensorFlow</text>
+
+  <circle cx="510" cy="210" r="5" fill="#3b82f6" filter="url(#sg)" class="p1"/>
+  <circle cx="510" cy="210" r="3" fill="#dbeafe"/>
+  <text x="510" y="228" class="label">PyTorch</text>
+
+  <circle cx="440" cy="200" r="4.5" fill="#3b82f6" filter="url(#sg)" class="p2"/>
+  <circle cx="440" cy="200" r="2.5" fill="#dbeafe"/>
+  <text x="440" y="188" class="label">Pandas</text>
+
+  <circle cx="560" cy="260" r="4" fill="#3b82f6" filter="url(#sg)" class="p3"/>
+  <circle cx="560" cy="260" r="2.5" fill="#dbeafe"/>
+  <text x="560" y="278" class="label">LLMs</text>
+
+  <circle cx="420" cy="260" r="4" fill="#3b82f6" filter="url(#sg)" class="p1"/>
+  <circle cx="420" cy="260" r="2.5" fill="#dbeafe"/>
+  <text x="420" y="278" class="label">Scikit-Learn</text>
+
+  <circle cx="580" cy="180" r="3.5" fill="#3b82f6" filter="url(#sg)" class="p2"/>
+  <circle cx="580" cy="180" r="2" fill="#dbeafe"/>
+  <text x="580" y="168" class="label">NumPy</text>
+
+  <!-- ============ NEBULA GAMMA — Creative (Right) ============ -->
+  <ellipse cx="770" cy="200" rx="130" ry="140" fill="url(#nebC)"/>
+  <text x="770" y="62" class="cluster-label" fill="#14b8a6" opacity="0.6">NEBULA GAMMA</text>
+
+  <!-- Constellation lines -->
+  <line x1="750" y1="130" x2="810" y2="160" stroke="#14b8a6" stroke-width="0.4" opacity="0.3"/>
+  <line x1="810" y1="160" x2="790" y2="220" stroke="#14b8a6" stroke-width="0.4" opacity="0.3"/>
+  <line x1="790" y1="220" x2="730" y2="210" stroke="#14b8a6" stroke-width="0.4" opacity="0.3"/>
+  <line x1="730" y1="210" x2="750" y2="130" stroke="#14b8a6" stroke-width="0.4" opacity="0.3"/>
+  <line x1="790" y1="220" x2="770" y2="280" stroke="#14b8a6" stroke-width="0.4" opacity="0.3"/>
+  <line x1="730" y1="210" x2="710" y2="270" stroke="#14b8a6" stroke-width="0.4" opacity="0.3"/>
+
+  <!-- Stars (skills) -->
+  <circle cx="750" cy="130" r="5" fill="#14b8a6" filter="url(#sg)" class="p3"/>
+  <circle cx="750" cy="130" r="3" fill="#ccfbf1"/>
+  <text x="750" y="118" class="label">Writing</text>
+
+  <circle cx="810" cy="160" r="5" fill="#14b8a6" filter="url(#sg)" class="p1"/>
+  <circle cx="810" cy="160" r="3" fill="#ccfbf1"/>
+  <text x="810" y="148" class="label">Design</text>
+
+  <circle cx="790" cy="220" r="5.5" fill="#14b8a6" filter="url(#sg)" class="p2"/>
+  <circle cx="790" cy="220" r="3.5" fill="#ccfbf1"/>
+  <text x="790" y="238" class="label">Invention</text>
+
+  <circle cx="730" cy="210" r="4.5" fill="#14b8a6" filter="url(#sg)" class="p3"/>
+  <circle cx="730" cy="210" r="2.5" fill="#ccfbf1"/>
+  <text x="730" y="198" class="label">Storytelling</text>
+
+  <circle cx="770" cy="280" r="4" fill="#14b8a6" filter="url(#sg)" class="p1"/>
+  <circle cx="770" cy="280" r="2.5" fill="#ccfbf1"/>
+  <text x="770" y="298" class="label">UX</text>
+
+  <circle cx="710" cy="270" r="4" fill="#14b8a6" filter="url(#sg)" class="p2"/>
+  <circle cx="710" cy="270" r="2.5" fill="#ccfbf1"/>
+  <text x="710" y="288" class="label">Ideation</text>
+
+  <!-- Faint connecting lines between clusters -->
+  <line x1="280" y1="160" x2="440" y2="200" stroke="#6d28d9" stroke-width="0.3" opacity="0.15" stroke-dasharray="4 4"/>
+  <line x1="580" y1="180" x2="730" y2="210" stroke="#0d9488" stroke-width="0.3" opacity="0.15" stroke-dasharray="4 4"/>
+
+  <!-- Background ambient stars -->
+  <circle cx="350" cy="100" r="0.8" fill="#4b5563" opacity="0.4"/>
+  <circle cx="380" cy="320" r="0.6" fill="#4b5563" opacity="0.3"/>
+  <circle cx="650" cy="90" r="0.7" fill="#4b5563" opacity="0.35"/>
+  <circle cx="620" cy="340" r="0.5" fill="#4b5563" opacity="0.3"/>
+  <circle cx="30" cy="350" r="0.8" fill="#4b5563" opacity="0.3"/>
+  <circle cx="870" cy="350" r="0.6" fill="#4b5563" opacity="0.35"/>
+
+  <!-- Footer line -->
+  <line x1="100" y1="360" x2="800" y2="360" stroke="#4b5563" stroke-width="0.3" opacity="0.2"/>
+</svg>
