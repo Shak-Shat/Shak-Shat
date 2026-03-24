@@ -4,7 +4,7 @@
 <!-- ✦  COSMIC HEADER  ✦ -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
-<img src="assets/header.svg" alt="Shak-Shat — Author · Developer · Maker of Unique Experiences" width="100%"/>
+<img src="assets/header.svg" alt="Shak-Shat — Agentic Engineer · Trading Systems Architect · Builder of Living AI" width="100%"/>
 
 <br/>
 
@@ -13,7 +13,7 @@
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=300&size=18&duration=3000&pause=1500&color=A855F7&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=50&lines=Crafting+stories+and+bringing+them+to+life+through+code...;Inventor+%7C+Creator+%7C+Designer;Transmitting+from+the+Pleiades+%E2%9C%A6" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=300&size=18&duration=3000&pause=1500&color=A855F7&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=50&lines=Engineering+agents+that+think%2C+trade%2C+and+evolve...;Claude+Code+%7C+Gemini+CLI+%7C+Codex+%7C+Copilot+CLI;Agent+Orchestration+%7C+MCP+Protocol+%7C+LangGraph;Transmitting+from+the+Pleiades+%E2%9C%A6" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -51,16 +51,14 @@
 <div align="center">
 <i>
 
-> *I don't just write code — I craft worlds. Every project is a story waiting to unfold,*
-> *every function a sentence in a larger narrative. I'm an Author who speaks in*
-> *JavaScript and Python, a Designer who paints with pixels and algorithms,*
-> *an Inventor who turns "what if" into "what is."*
+> *I don't just build software — I engineer agents that think, trade, and evolve.*
+> *Every system I create is designed to be autonomous, ambient, alive.*
 >
-> *I build unique experiences — the kind that make you pause, lean in, and wonder*
-> *how it was made. From AI systems that think alongside you to interfaces*
-> *that feel alive, I exist at the intersection of imagination and engineering.*
+> *I harness Claude Code, Gemini CLI, Codex, and Copilot CLI —*
+> *wiring them through MCP protocols and LangGraph into systems*
+> *that don't just respond — they anticipate, adapt, and act.*
 >
-> *Some people write code. I compose it.*
+> *Some people write code. I compose autonomous systems.*
 
 </i>
 </div>
@@ -97,85 +95,63 @@
 
 <details>
 <summary>
-&ensp;⟐&ensp;<code>MISSION::GENESIS-1</code>&ensp;—&ensp;<b>Portfolio Universe</b>&ensp;
+&ensp;⟐&ensp;<code>MISSION::SWITCH-1</code>&ensp;—&ensp;<b>Switchboard</b>&ensp;
 <img src="https://img.shields.io/badge/■■■■■-ACTIVE-a855f7?style=flat-square&labelColor=0D1117" height="18"/>
 </summary>
 <br/>
 
-> **Classification:** Top Secret · **Sector:** Web Development
+> **Classification:** Top Secret · **Sector:** Agent Orchestration
 >
-> A living, breathing portfolio that isn't just a page — it's an experience.
-> Built with React and animated to feel like navigating through space itself.
+> Multi-agent coordination layer. Routes, relays, orchestrates.
 >
-> `React` · `Three.js` · `Framer Motion` · `TypeScript`
-
-<!-- 🔗 Replace with your actual repo link -->
-<!-- [► View Mission Files](https://github.com/Shak-Shat/YOUR-REPO) -->
+> `Python` · `Claude Code` · `LangGraph` · `MCP`
 
 </details>
 
 <details>
 <summary>
-&ensp;⟐&ensp;<code>MISSION::NEURAL-7</code>&ensp;—&ensp;<b>AI Story Engine</b>&ensp;
+&ensp;⟐&ensp;<code>MISSION::VOID-3</code>&ensp;—&ensp;<b>Void Trilemma</b>&ensp;
+<img src="https://img.shields.io/badge/■■■■■-ACTIVE-a855f7?style=flat-square&labelColor=0D1117" height="18"/>
+</summary>
+<br/>
+
+> **Classification:** Confidential · **Sector:** Ambient AI
+>
+> A self-improving creature that lives on your machine. It observes, learns, evolves.
+>
+> `Python` · `LangChain` · `LangGraph` · `Gemini` · `Claude`
+
+</details>
+
+<details>
+<summary>
+&ensp;⟐&ensp;<code>MISSION::SOVEREIGN-7</code>&ensp;—&ensp;<b>Sovereign Strategist</b>&ensp;
+<img src="https://img.shields.io/badge/■■■■□-LIVE-14b8a6?style=flat-square&labelColor=0D1117" height="18"/>
+</summary>
+<br/>
+
+> **Classification:** Restricted · **Sector:** Trading Intelligence
+>
+> Live gold trading intelligence. Real-time signals, market reads, authority built on-stream.
+>
+> `Python` · `FastAPI` · `MetaTrader 5` · `WebSockets`
+
+</details>
+
+<details>
+<summary>
+&ensp;⟐&ensp;<code>MISSION::DATUR-9</code>&ensp;—&ensp;<b>Institutor</b>&ensp;
 <img src="https://img.shields.io/badge/■■■□□-IN%20PROGRESS-3b82f6?style=flat-square&labelColor=0D1117" height="18"/>
 </summary>
 <br/>
 
-> **Classification:** Confidential · **Sector:** AI / Machine Learning
+> **Classification:** Restricted · **Sector:** Autonomous Trading
 >
-> An intelligent narrative engine that co-creates stories with humans.
-> Blending LLMs with creative writing to push the boundaries of interactive fiction.
+> Autonomous trading swarm. Multiple agent services, one decision core.
 >
-> `Python` · `PyTorch` · `LangChain` · `Next.js`
-
-<!-- 🔗 Replace with your actual repo link -->
-<!-- [► View Mission Files](https://github.com/Shak-Shat/YOUR-REPO) -->
+> `Python` · `LangChain` · `LangGraph` · `FastAPI`
 
 </details>
-
-<details>
-<summary>
-&ensp;⟐&ensp;<code>MISSION::PRISM-4</code>&ensp;—&ensp;<b>Design System</b>&ensp;
-<img src="https://img.shields.io/badge/■■■■□-DEPLOYED-14b8a6?style=flat-square&labelColor=0D1117" height="18"/>
-</summary>
-<br/>
-
-> **Classification:** Open · **Sector:** Design / Frontend
->
-> A component library that doesn't just look good — it tells a visual story.
-> Every interaction is intentional, every animation purposeful.
->
-> `TypeScript` · `React` · `Storybook` · `Tailwind CSS`
-
-<!-- 🔗 Replace with your actual repo link -->
-<!-- [► View Mission Files](https://github.com/Shak-Shat/YOUR-REPO) -->
-
-</details>
-
-<details>
-<summary>
-&ensp;⟐&ensp;<code>MISSION::ATLAS-9</code>&ensp;—&ensp;<b>Data Voyager</b>&ensp;
-<img src="https://img.shields.io/badge/■■□□□-PLANNING-6366f1?style=flat-square&labelColor=0D1117" height="18"/>
-</summary>
-<br/>
-
-> **Classification:** Restricted · **Sector:** Data Science
->
-> Turning raw data into visual narratives. An exploration tool that makes
-> complex datasets feel like interactive stories anyone can understand.
->
-> `Python` · `D3.js` · `Pandas` · `FastAPI`
-
-<!-- 🔗 Replace with your actual repo link -->
-<!-- [► View Mission Files](https://github.com/Shak-Shat/YOUR-REPO) -->
-
-</details>
-
-<br/>
-
-<div align="center">
-<sub><i>// Mission logs are placeholders — replace with your actual projects! (see HTML comments)</i></sub>
-</div>
 
 <br/>
 
@@ -287,27 +263,3 @@
 
 </div>
 
-<!--
-
-  ┌─────────────────────────────────────────────────────┐
-  │  ✦  CUSTOMIZATION GUIDE                             │
-  │                                                     │
-  │  1. MISSION LOGS: Replace placeholder projects      │
-  │     with your real repos. Update names, badges,     │
-  │     descriptions, and uncomment the links.          │
-  │                                                     │
-  │  2. WARP COORDINATES: Replace # in social links     │
-  │     with your actual LinkedIn, portfolio, and        │
-  │     email URLs.                                     │
-  │                                                     │
-  │  3. CONSTELLATION: Edit assets/constellation.svg    │
-  │     to add/remove/rename skills in each nebula.     │
-  │                                                     │
-  │  4. SNAKE: Set up the GitHub Actions workflow       │
-  │     for the contribution snake animation.           │
-  │                                                     │
-  │  5. ABOUT ME: Edit the transmission text to         │
-  │     better match your personal story.               │
-  └─────────────────────────────────────────────────────┘
-
--->

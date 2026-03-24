@@ -113,7 +113,7 @@
   <line x1="280" y1="118" x2="620" y2="118" stroke="#a855f7" stroke-width="0.5" opacity="0.4"/>
 
   <!-- Subtitle -->
-  <text x="450" y="148" text-anchor="middle" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="14" font-weight="300" letter-spacing="4" fill="#c4b5fd" filter="url(#subtitleGlow)">AUTHOR  ·  DEVELOPER  ·  MAKER OF UNIQUE EXPERIENCES</text>
+  <text x="450" y="148" text-anchor="middle" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="14" font-weight="300" letter-spacing="4" fill="#c4b5fd" filter="url(#subtitleGlow)">AGENTIC ENGINEER  ·  TRADING SYSTEMS ARCHITECT  ·  BUILDER OF LIVING AI</text>
 
   <!-- Small decorative stars around title -->
   <text x="235" y="95" font-size="8" fill="#a855f7" class="s2">✦</text>
